@@ -1,0 +1,87 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    align-items: center
+}
+.logo-container,.nav-links, h1,.logo {
+    display: flex;
+}
+.logo{
+    font-weight: 400;
+    margin: 35px 0px 0px 0px;
+}
+.animated_gif{
+    width: 60px;
+    height: auto;
+    margin: 20px
+}
+.logo-container{
+    flex: 0.8;
+}
+h1 {
+    flex: 0.7;
+}
+nav{
+    flex: 0.3;
+}
+.nav-links{
+    list-style: none;
+    justify-content: space-around;
+}
+.nav-link{
+    color:dimgrey;
+    text-decoration: none;
+}
+
+.presentacion {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 525px;
+    align-items: center;
+}
+.intro{
+    flex: 1;
+}
+.Geom {
+    flex:1;
+}
+.Geom img{
+    height: 350px;
+}
+.intro-texto h2{
+    font-size: 44px;
+    font-weight: 500;
+    background: linear-gradient(to right,#02786a, #b8d4d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.intro-texto p{
+    margin-top: 10px;
+    font-size: 22px;
+    color: #1a3632;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+.generar {
+    margin: 50px 0px;
+    border: 2px solid #0e2436;
+    background: transparent;
+    color: #0e2436;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
