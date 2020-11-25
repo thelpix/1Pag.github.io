@@ -12,7 +12,10 @@ header {
     width: 90%;
     margin: auto;
     height: 100px;
-    align-items: center
+    align-items: center;
+    background:linear-gradient( #02782F, #024B78 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .logo-container,.nav-links, h1,.logo {
     display: flex;
@@ -27,10 +30,10 @@ header {
     margin: 20px
 }
 .logo-container{
-    flex: 0.8;
+    flex: 0.38;
 }
 h1 {
-    flex: 0.7;
+    flex: 0.3;
 }
 nav{
     flex: 0.3;
@@ -48,8 +51,9 @@ nav{
     display: flex;
     width: 90%;
     margin: auto;
-    min-height: 525px;
+    min-height: 420px;
     align-items: center;
+    border-bottom: 2px solid black;
 }
 .intro{
     flex: 1;
@@ -58,7 +62,7 @@ nav{
     flex:1;
 }
 .Geom img{
-    height: 350px;
+    height: 300px;
 }
 .intro-texto h2{
     font-size: 44px;
@@ -73,6 +77,7 @@ nav{
     color: #1a3632;
 }
 button {
+    justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
 }
 .generar {
@@ -85,3 +90,38 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+.comprar{
+    margin: 0px 30px 0px 30px;
+    background: #0e2436;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+
+.bloque {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+.bloque-texto {
+  margin: auto;  
+}
+
+.titulo1 {
+    margin-bottom: 10px;
+        
+}
+
+.texto1 {
+    color: #0e2436;
+    width: 425px; 
+}
+
+
