@@ -52,9 +52,9 @@ nav{
 }
 
 .presentacion {
-    display: flex;
     width: 90%;
     margin: auto;
+    display: flex;
     min-height: 420px;
     align-items: center;
     border-bottom: 2px solid black;
@@ -62,14 +62,12 @@ nav{
 .intro{
     flex: 1;
 }
-.Geom {
+#Geom {
+    height: 300px;
     flex:1;
 }
-.Geom img{
-    height: 300px;
-}
 .intro-texto h2{
-    font-size: 44px;
+    font-size: 48px;
     font-weight: 500;
     background: linear-gradient(to right,#02786a, #b8d4d0);
     -webkit-background-clip: text;
