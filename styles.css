@@ -34,7 +34,7 @@ header {
     flex: 0.38;
 }
 h1 {
-     background:linear-gradient( #02782F, #024B78 );
+    background:linear-gradient( #02782F, #024B78 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     flex: 0.3;
@@ -67,7 +67,7 @@ nav{
     flex:1;
 }
 .intro-texto h2{
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 500;
     background: linear-gradient(to right,#02786a, #b8d4d0);
     -webkit-background-clip: text;
