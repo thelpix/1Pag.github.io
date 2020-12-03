@@ -33,6 +33,21 @@ header {
 .logo-container{
     flex: 0.38;
 }
+.regalo
+{
+    margin-left: 35%;
+    height: 300px;
+}
+#gift{
+    margin-left: 40%;
+    width: 300px;
+    height: auto;
+}
+.alma
+{
+    color: #3E49BB;
+    margin-left: 30%;
+}
 h1 {
     background:linear-gradient( #02782F, #024B78 );
     -webkit-background-clip: text;
