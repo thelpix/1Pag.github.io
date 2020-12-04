@@ -1,4 +1,4 @@
 # PrimerPag
-Una pagina web como proyecto de escuela
+Una pagina web trucha
 
 Pagina web para probar: https://thelpix.github.io/1Pag.github.io/
