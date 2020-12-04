@@ -3,10 +3,18 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+main{
+    margin-bottom: 55px;
+}
 body {
     margin-top: 55px;
     font-family: 'Montserrat', sans-serif;
+}
+footer{
+    border-top: rgb(96, 178, 245)solid 1px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: aliceblue;
 }
 header {
     border-bottom: 2px solid black;
@@ -32,6 +40,9 @@ header {
 }
 .logo-container{
     flex: 0.38;
+}
+.github{
+    text-decoration: none;
 }
 .regalo
 {
@@ -159,6 +170,9 @@ button {
 
 @media screen and (max-width : 768px) 
 {
+    footer{
+        flex-direction: column;
+    }
     .generar{
         margin-right: 0px;
     }
@@ -176,7 +190,7 @@ button {
         margin-top: 8px;
     }
     #Geom img{
-        height: auto;
+        height: 250px;
     }
     .nav-link{
         display:none;
