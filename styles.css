@@ -157,7 +157,7 @@ button {
     }
 }
 
-@media screen and (max-width : 576px) 
+@media screen and (max-width : 764px) 
 {
     .generar{
         margin-right: 0px;
