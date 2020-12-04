@@ -175,6 +175,9 @@ button {
     #Geom{
         margin-top: 8px;
     }
+    #Geom img{
+        height: auto;
+    }
     h1{
         font-size: 23px;
     }
