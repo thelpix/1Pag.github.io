@@ -178,6 +178,9 @@ button {
     #Geom img{
         height: auto;
     }
+    .nav-link{
+        display:none;
+    }
     h1{
         font-size: 23px;
     }
